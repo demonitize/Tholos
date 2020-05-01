@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.serverBox {
+  width: 20%;
+  height: 20%;
+  border-radius: 5%;
+  margin: 3%;
+  text-align: center;
+  background-color: #7289da;
+}
+
+#serverList {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  width: 80%;
+}
+
+.serverLogo {
+  margin-top: 5%;
+  width: 45%;
+  height: 45%;
+  border-radius: 25%;
+}
+
+.serverPopUp {
+  width: 80vh;
+  height: 80vh;
+  position: absolute;
+  margin-top: 20vh;
+  border-radius: 5%;
+  text-align: center;
+  background-color: #7289da;
+}
+
+html {
+  color: #fff;
+  align-self: center;
+  background-color: #222327;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* .memberCount {
+    font-size: 50%;
+} */
